@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🎮 Lustlx開発室</h1>
+
+<p>
+	ここは Lustlx の個人インディーゲーム制作室。<br />
+	開発ログ、思考の断片、そして日々の記録。<br />
+	（这里是 Lustlx 的个人制作室。记录游戏开发、灵感碎片与生活。）
+</p>
+
+<p>
+	TADA氏の物語に触れ、自分もゲーム制作者になりたいと思いました。夢はランスのような作品を作ることです。<br />
+	（因为 TADA 的故事自己想要成为游戏制作人。梦想是想做出像兰斯一样的作品。）
+</p>
+</main>
+<Footer />
+</body>
+</html>
