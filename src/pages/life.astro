@@ -30,10 +30,11 @@ const posts = (await getCollection('blog', ({ data }) => {
                 margin: 0;
                 padding: 0;
             }
-            ul li {
-                width: calc(50% - 1rem);
-            }
-            ul li * {
+        ul li {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
                 text-decoration: none;
                 transition: 0.2s ease;
             }
