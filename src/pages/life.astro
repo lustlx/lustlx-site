@@ -35,10 +35,11 @@ const posts = (await getCollection('blog', ({ data }) => {
             margin-bottom: 2rem;
             text-align: center;
         }
+        ul li * {
+            text-decoration: none;
+            transition: 0.2s ease;
+        }
 
-                text-decoration: none;
-                transition: 0.2s ease;
-            }
 
             ul li img {
                 margin-bottom: 0.5rem;
